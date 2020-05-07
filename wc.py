@@ -1,4 +1,10 @@
 # -*- coding: utf-8 -*-
+# (C) 2020 William Eustace, MIT licenced. 
+# Parts of this program are adopted from examples in the Wordcloud docs.  
+#When given a Facebook messenger JSON file, this will generate a wordcloud to a mask of your choosing (see the wordcloud docs) and 
+#also plot some summative statistics about who has used which words and who has used particular "reacts" most. 
+# This is still to an extent 'work in progress', use at your peril. 
+
 import json
 from wordcloud import WordCloud,STOPWORDS,ImageColorGenerator
 import pandas
